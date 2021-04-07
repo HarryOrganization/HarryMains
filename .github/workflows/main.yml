@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      # run codecov
+      - name: Codecov
+        uses: codecov/codecov-action@v1.3.2
